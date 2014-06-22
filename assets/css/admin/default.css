@@ -1,0 +1,413 @@
+/* CSS Document */
+body {
+	padding-top: 60px;
+}
+
+.sidebar-nav .well{
+  background-color: #fbfbfb;
+  background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: linear-gradient(top, #ffffff, #f5f5f5);
+  background-repeat: repeat-x;
+  border: 1px solid #ddd;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+  -moz-box-shadow: inset 0 1px 0 #ffffff;
+  box-shadow: inset 0 1px 0 #ffffff;
+}
+
+/* Other */
+.action-btn {
+	text-align:center;
+	 background-color: #fbfbfb;
+  background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: linear-gradient(top, #ffffff, #f5f5f5);
+  background-repeat: repeat-x;
+  border: 1px solid #ddd;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+     -moz-box-shadow: inset 0 1px 0 #ffffff;
+          box-shadow: inset 0 1px 0 #ffffff;
+  margin-top:0px;
+  margin-bottom:20px;
+  padding:10px;
+}
+
+/* Comment Table */
+.member-avatar img {
+border: 1px solid #DDDDDD;}
+
+.comment-info {
+color:#666;
+}
+
+/* Portlets */
+.box h4.box-header {
+	background-color: #fbfbfb;
+  background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: linear-gradient(top, #ffffff, #f5f5f5);
+  background-repeat: repeat-x;
+  border: 1px solid #ddd;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+     -moz-box-shadow: inset 0 1px 0 #ffffff;
+          box-shadow: inset 0 1px 0 #ffffff;
+}
+
+.box .box-container-toggle {
+	border-left:1px solid #DDD;
+		border-right:1px solid #DDD;
+			border-bottom:1px solid #DDD;
+	
+		 -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+   -webkit-border-top-left-radius: 0px;
+      -webkit-border-top-right-radius: 0px;
+     -moz-border-top-left-radius: 0px;
+	      -moz-border-top-right-radius: 0px;
+          border-top-left-radius: 0px;
+		            border-top-right-radius: 0px
+}
+
+.box-btn {
+	border:1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	-moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.3);
+	-webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.3);
+	box-shadow: 0px 1px 0px rgba(255,255,255,0.3);
+}
+
+/* Round Corners and text effects
+----------------------------------------------------------------------------------------------------*/
+
+.round-all {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.round-top {
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-radius: 3px 3px 0 0;
+}
+.round-bottom {
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-radius: 0 0 3px 3px;
+}
+.round-left {
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-radius: 3px 0 0 3px;
+}
+.round-right {
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-radius:0 3px 3px 0;
+}
+/* Member Box - Side Nav */
+.member-box {
+	 background-color: #fbfbfb;
+  background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: linear-gradient(top, #ffffff, #f5f5f5);
+  background-repeat: repeat-x;
+  border: 1px solid #ddd;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+     -moz-box-shadow: inset 0 1px 0 #ffffff;
+          box-shadow: inset 0 1px 0 #ffffff;
+}
+
+img.member-box-avatar {
+	border:1px solid #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* Dashboard  */
+.box ul.dashboard-statistics li, ul.dashboard-member-activity li {
+	border-bottom: 1px solid #ebebeb;
+	border-top: 1px solid #fff;
+}
+
+.red {
+	color:#B94A48;
+}
+.green {
+	color:#468847
+}
+.yellow {
+	color:#F89406
+}
+.blue {
+	color:#3A87AD;
+}
+
+img.dashboard-member-activity-avatar {
+	border:1px solid #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* Calendar */
+.fc-state-default .fc-button-effect span {
+	background-color: #fbfbfb;
+  background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: linear-gradient(top, #ffffff, #f5f5f5);
+  background-repeat: repeat-x;
+  border: 1px solid #ddd;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+     -moz-box-shadow: inset 0 1px 0 #ffffff;
+          box-shadow: inset 0 1px 0 #ffffff;
+}
+
+/* Show Grid */
+.show-grid [class*="span"] {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.show-grid:hover [class*="span"] {
+    background: none repeat scroll 0 0 #DDDDDD;
+}
+
+.show-grid .show-grid [class*="span"] {
+    background-color: #CCCCCC;
+}
+
+.required{
+    color: #ff0000;
+}
+
+.displaynonehard
+{
+    display: none!important;
+}
+
+.displaynone
+{
+    display: none;
+}
+
+.small-font{
+    font-size: 80%;
+}
+
+#tool_box_btn
+{
+    border: 1px solid #DDD;
+    border-radius: 3px;
+}
+/* --------- dashboard css  start here ----------*/
+
+.other ol,.other ul {
+        list-style: none outside none;
+        }
+.other ul#dashboard-buttons li
+{
+        height: 112px;
+        float: left;
+        width: 120px;
+        margin: 5px 3px;
+        text-align: center;
+        border: 3px solid #3491E2;
+        padding: 3px;
+        border-radius: 5px;
+}
+
+.other ul#dashboard-buttons li img
+{
+        width: 110px;
+        border: none;
+}
+
+.other ul#dashboard-buttons li:hover
+{
+        background: #7ABEEF;
+
+}
+.other ul#dashboard-buttons li a div {
+        display: none;
+        background: none repeat scroll 0 0 #333232;
+        padding: 2px 2px 0px 2px;
+        position: absolute;
+        width: 115px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 10px;
+        z-index: 100;
+        opacity: 0.8;
+}
+
+        
+        
+.other ul#hardware-buttons li
+{
+        height: 130px;
+        float: left;
+        width: 140px;
+        margin: 5px 5px;
+        text-align: center;
+        border: 4px solid #3491E2;
+        padding: 3px;
+        
+}
+
+
+.clearfix
+{
+        clear: both;
+}
+
+.main_head
+{
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+}
+
+/* --------- dashboard css  ends here ----------*/
+
+.navbar-inner .notification
+{
+    float: left;
+    margin: 15px 0px 0px 100px ;
+    width: 200px;
+}
+.navbar-inner .notification .notifi_img_cont
+{
+    width: 40px;
+    margin-right: 15px;
+    position: relative;
+    float: left;
+}
+.navbar-inner .notification .bubble {
+  background-color: #E02424;
+  border-radius: 3px;
+  color: #FFFFFF;
+  font-family: Tahoma,Arial,Helvetica;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 2px 6px;
+  position: absolute;
+  right: -9px;
+  top: -10px;
+}
+.lang_container{
+    width: 200px;
+    float:right;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.file_folder_tree
+{
+    width: 260px;
+    border: 1px solid #CCC;
+    height: 530px;
+    overflow: scroll;
+    float: left;
+}
+.file_folder_tree ul
+{
+    padding-left: 10px;
+}
+
+.file_folder_tree .directory
+{
+    background: url('../../img/icons/admin/file_tree/folder.png') left top no-repeat;
+}
+.file_folder_tree .file
+{
+    background: url('../../img/icons/admin/file_tree/doc.png') left top no-repeat;
+}
+.file_folder_tree #file_folder_back
+{
+    background: url('../../img/icons/admin/file_tree/back.png') left top no-repeat;
+}
+ul.file_folder li {
+  list-style: none;
+  margin: 0 0 5px 0;
+  padding:7px 0 7px 25px;
+  white-space: nowrap;
+}
+ul.file_folder li.file_active {
+    background-color: #adc5e2;
+}
+
+ul.file_folder li a{
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 10px;
+    outline: none;
+}
+
+.file_disp_cont
+{
+    float: left;
+    width: 840px;
+    border: 1px solid #CCC;
+    height: 525px;
+    overflow: hidden;
+    padding-left:10px; 
+    padding-top:10px; 
+}
+
+
+.quick_actions{
+    float: left;
+    margin: 0px 0px 0px 10px;
+}
+.quick_actions span
+{
+    cursor: pointer;
+    margin: 0px 5px;
+    float: left;
+}
+
+/*==== Login box style ===*/
+#loginalertbox
+{
+    display: none;
+}
+
+tr.myDragClass td {
+    background-color: #D2F3FF;
+    border: 2px solid #53CFFC;
+}
+tbody.dragging_t tr:hover 
+{
+    background-color: #e0f2be!important;
+}

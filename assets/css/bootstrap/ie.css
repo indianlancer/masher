@@ -1,0 +1,39 @@
+/*-------------- For IE Only --------------*/
+
+ul, li, div		{ zoom: 100.01% }
+
+#wrap			{ _height: 100% }
+
+.	 			{ _background: none;
+				  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/img/.png", sizingMethod="crop") }
+
+#planA
+{ 
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/img/plan-a-bg.png", sizingMethod="scale")
+}
+.item1, .item2, .item3
+{
+	behavior: url(../images/img/iepngfix/iepngfix.htc);
+	cursor: pointer
+}
+.special img
+{
+		behavior: url(../images/img/iepngfix/iepngfix.htc);
+}
+#virtual
+{
+	float: none;
+}
+#planA
+{
+	margin-left: 148px;
+}
+#items .item
+{
+	margin-left: 6px;
+}
+#items .item.active
+{
+	margin-left:0 !important;
+}

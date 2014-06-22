@@ -1,0 +1,43 @@
+/*  social home header*/
+.ac_results{ background:#f4f4f2; border:1px solid #ddd;}
+.ac_results img{ width:50px; height:50px; border:2px solid #FFF; margin:3px; float:left;}
+.ac_results ul{ list-style:none; padding:0; margin:0 3px;}
+.ac_results ul li{ border-bottom:1px dotted #999; padding:2px 0; margin:5px 0; overflow: hidden;}
+.ac_results ul li:hover{ background:#1A292E; cursor:pointer; color:#FFF;}
+.ac_results p{font-size:14px; padding: 5px 0 3px 5px; float:left; width:240px; margin:0;}
+.ac_results span{font-size:12px; padding: 0 0 3px 5px; margin:0;}
+.ac_more{border:0px solid red;color:#0066FF;font-size:10px;font-weight:bold; margin:0 auto 0  auto!important;text-align:center}
+.ac_more img{border:none!important;height:15px!important;top:4px;left:-6px;position:relative; width:15px!important;float:none!important;margin:0!important;
+-webkit-transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+/* for ie */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.ac_more text{font-size:9px;}
+.ac_over{background-color:#1a292e;color:#FFFFFF}
+.ac_cont_img{cursor:pointer}
+.ac_add{border:0px solid red;color:#0066FF;font-weight:bold; margin:0 auto 0  auto!important;text-align:center}
+
+/*  social home event*/
+.inviteFrnd{cursor:text;text-align:left;height:auto}
+
+/*  social home member*/
+.ac_span_data{border:1px solid #0099FF;display:inline-table;background:#00CCFF;color:#000000!important;margin:2px 1px 0px 1px!important}
+.ac_span_data:hover{background:#15939D;cursor:pointer}
+.members{cursor:text;text-align:left;height:auto}
+
+/*   social home center   question and answers  */
+
+.ac_cont_img{cursor:pointer}
+.img_span_div img{float:left;cursor:pointer;margin:2px 0px 2px 0px!important;padding:2px}
+.add_text{text-align:center}
+.sel_img_id{border:2px solid #0099FF!important;}
+#ms_tab{background-color:#0099FF;cursor:pointer; color:#FFFFFF;float:left; margin:3px 3px 3px 3px; height:15px;width:40px;padding:2px 2px 2px 2px;text-align:center}
+.img_div{display:none;width:420px;min-height:150px;}
+.img_span_div{width:78px;float:left;height:80px;}
+.img_span{float:left;}
+.auto_c_img{float:left;}
+.rem_tag{width:75px;margin-top:50px;margin-left:-75px/*IF IE*/;margin-left:0px!important;position:absolute;color:#FFFFFF;background: rgb(0, 0, 0); /* fallback color */ background: rgba(0, 0, 0, 0.7);
+}
+.rem_tag a{color:#FFFFFF;text-decoration:none;}
+.rem_tag a:hover{color:#E8C640;text-decoration:underline}
